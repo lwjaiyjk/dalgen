@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table sqlname="tts_product">
+
+
+ 	<resultMap name="RM-TTS-PRODUCT_TEST" >
+        <column name="id" javaType="java.lang.Long" />
+        <column name="pid" javaType="java.lang.Long" />
+        <column name="source_id" javaType="java.lang.Long" />
+        <column name="cid" javaType="java.lang.Integer" />
+        <column name="website" javaType="java.lang.Integer" />
+        <column name="is_index" javaType="java.lang.Integer" />
+        <column name="online_time" javaType="java.util.Date" />
+    </resultMap>
+
+
+	<sql id="fieldTitle">
+		id,pid,sourceId,cid,website,isIndex,onlineTime
+	</sql>
+
+	<operation name="getTest" resultMap="RM-TTS-PRODUCT_TEST">
+		<description>查询所有记录</description>
+		<sql>
+			SELECT desc_ FROM tts_product
+		</sql>
+		<sqlmap>
+		<![CDATA[
+			SELECT <include refid="fieldTitle" /> FROM tts_product
+		]]>
+		</sqlmap>
+	</operation>
+
+	
+	<operation name="insert1">
+	<sql>
+	insert into tts_meizhuang
+	(id,pic_url,price,words,topIds,publish_time,publish_user_id,create_time)
+	values(?,?,?,?,?,?,?,?)
+	</sql>
+	
+	
+	</operation>
+	<operation name="insert">
+		<sql>
+			insert into tts_product
+			(pid,source_id,cid,website,is_index,is_mobile_top,price,sales,create_time,modify_time,publish_user_id,modify_user_id,is_deleted,order_id,leaf_cate_id,online_time,description,url)
+			VALUES
+			(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+		</sql>
+		<sqlmap>
+			insert into tts_product
+			(pid,source_id,cid,website,is_index,is_mobile_top,price,sales,create_time,modify_time,publish_user_id,modify_user_id,is_deleted,order_id,leaf_cate_id,online_time,description,url)
+			VALUES
+			(#pid#, #sourceId#,#cid#, #website#, #isIndex#, #isMobileTop#, #price#,
+			#sales#, now(), now(), #publishUserId#, #modifyUserId#, #isDeleted#,
+			#orderId#, #leafCateId#, #onlineTime#, #description#, #url#})
+		</sqlmap>
+	</operation>
+
+
+	<operation name="updateRandomId">
+		<sql>
+			update tts_product
+			SET
+			random_id = ?
+			where id =?
+		</sql>
+	</operation>
+
+
+	<operation name="getById">
+		<sql>
+			SELECT id,pid,source_id,
+			cid,website,is_index,is_mobile_top,order_id,price,sales,create_time,modify_time,publish_user_id,modify_user_id,is_deleted,leaf_cate_id,is_mobile_display,online_time,description,url
+			from tts_product
+			WHERE
+			id = ?
+		</sql>
+	</operation>
+	<operation name="getBySourceId">
+		<sql>
+			SELECT id,pid,source_id,
+			cid,website,is_index,is_mobile_top,order_id,price,sales,create_time,modify_time,publish_user_id,modify_user_id,is_deleted,leaf_cate_id,is_mobile_display,online_time,description,url
+			from tts_product
+			WHERE
+			source_id = ?
+		</sql>
+	</operation>
+	
+	
+	<operation name="updateBatch">
+		<extraparams>
+			<param name="ids" javatype="java.lang.String"/>
+			</extraparams>
+		<sql>
+		<![CDATA[
+			update tts_product
+			SET is_deleted = 1
+
+			 ]]>
+		</sql>
+		<sqlmap>
+				<![CDATA[
+			update tts_product
+			SET is_deleted = 1
+			where id in $(ids)
+						 ]]>
+		</sqlmap>
+	</operation>
+	<operation name="deleteProduct">
+
+		<sql>
+			update tts_product
+			SET
+			is_deleted =?
+			where pid = ? and id=?
+		</sql>
+		<sqlmap>
+		<![CDATA[
+		update tts_product
+		set
+		is_deleted=#isDeleted#
+		where
+		 <dynamic prepend="and">
+		 <isNull property="id">
+			<isNotNull property="pid">
+				pid=#pid#
+			</isNotNull>
+		</isNull>
+		<isNotNull property="id">
+			id = #id# 
+		</isNotNull>
+		 </dynamic>
+		]]>
+		</sqlmap>
+
+	</operation>
+	<operation name="selectByPid">
+		<sql>
+		SELECT id,pid,source_id, cid,website,is_index,is_mobile_top,order_id,price,sales,create_time,modify_time,publish_user_id,modify_user_id,is_deleted,leaf_cate_id,is_mobile_display,online_time,description,url from tts_product
+		WHERE
+		pid =?
+		</sql>
+	</operation>
+	
+	<operation name="selectCount" resultClass="java.lang.Integer">
+		<sql>
+			select count(1) from tts_product
+		</sql>
+	
+	</operation>
+	
+	
+	<operation name="deleteById">
+		<sql>
+				delete from tts_product where id=?
+		</sql>
+	</operation>
+	
+	<operation name="updateById" paramtype="object">
+		<sql>
+		update tts_product
+		SET
+		is_index=?,
+		is_mobile_top=?,
+		leaf_cate_id=?,
+		order_id=?,
+		online_time=? ,
+		description=?,
+		modify_user_id=?,
+		url=?,
+		modify_time=?
+		WHERE
+		id = ?
+		</sql>
+		<sqlmap>
+					update tts_product
+		SET
+		is_index=#isIndex#,
+		is_mobile_top=#isMobileTop#,
+		leaf_cate_id=#leafCateId#,
+		order_id=#orderId#,
+		online_time=#onlineTime# ,
+		description=#description#,
+		modify_user_id=#modifyUserId#,
+		url=#url#,
+		modify_time=NOW()
+		WHERE
+		id = #id# 
+		</sqlmap>
+		
+	</operation>
+	<operation name="selectByTagId" multiplicity="many" >
+	<extraparams>
+		<param name="tagId" javatype="java.lang.String"></param>
+	</extraparams>
+	<sql>
+		SELECT
+		t.id,t.pid,t.source_id,t.cid,t.website,t.is_index,t.is_mobile_top,t.order_id,t.price,t.sales,t.create_time,t.modify_time,t.publish_user_id,t.modify_user_id,t.is_deleted,t.leaf_cate_id ,t.is_mobile_display,t.online_time,t.description,t.url from tts_product t
+
+
+	</sql>
+	<sqlmap>
+		SELECT
+		t.id,t.pid,t.source_id,t.cid,t.website,t.is_index,t.is_mobile_top,t.order_id,t.price,t.sales,t.create_time,t.modify_time,t.publish_user_id,t.modify_user_id,t.is_deleted,t.leaf_cate_id ,t.is_mobile_display,t.online_time,t.description,t.url from tts_product t
+		LEFT JOIN tts_product_tag tc on t.id = tc.tts_product_id
+		where tc.tag_id =#tagId#
+	</sqlmap>
+
+	
+	</operation>
+	
+
+	
+</table>

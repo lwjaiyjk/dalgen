@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<!-- ==========================================================  -->
+<!-- Configuration for ibatis sqlmap mapping.                    -->
+<!-- ==========================================================  -->
+
+#parse("description-xml.vm")
+
+<sqlMap namespace="${table.baseClassName}">
+    <!-- ============================================= -->
+    <!-- RESULT MAPS                                   -->
+    <!-- ============================================= -->
+
+
+##generate all other resultmaps
+    <!-- result maps for database table ${table.sqlName} -->
+#foreach ($resultMap in ${table.resultMaps})
+    <resultMap id="${resultMap.idAttr}" class="${resultMap.classAttr}">
+#foreach ($result in ${resultMap.results})
+        <result property="${result.property}" column="${result.column}" javaType="${result.javaType}" jdbcType="${result.jdbcType}"#if (${result.hasNullValue}) nullValue="${result.nullValue}"#end/>
+#end
+    </resultMap>
+
+#end
+#foreach ($sql in ${table.sqls})
+	<sql id="${sql.id}">
+#if(${sql.escape})
+	<![CDATA[
+		${sql.sql}
+	]]>
+#else
+		${sql.sql}
+#end
+	</sql>
+
+#end
+##generate all statemetns
+    <!-- ============================================= -->
+    <!-- mapped statements for ${table.ibatisClassName} -->
+    <!-- ============================================= -->
+#foreach ($operation in ${table.operations})
+    <!-- mapped statement for ${table.ibatisClassName}.${operation.name} -->
+#if (${operation.mappedStatementType} == "insert")
+	<insert id="${operation.mappedStatementId}">
+#if (${operation.hasSqlmap})
+	$operation.mappedStatementSql
+#else
+	$operation.mappedStatementSql
+#end
+    <selectKey resultClass="${table.pkColumn.javaType}" keyProperty="${table.pkColumn.variableName}">
+		select last_insert_id() as ${table.pkColumn.variableName}
+    </selectKey>
+	</insert>
+
+#elseif (${operation.mappedStatementType} == "select")
+#if (${operation.paging})
+    <select id="${operation.mappedStatementId}" ${operation.mappedStatementResult}>
+#if (${operation.hasSqlmap})
+        $operation.mappedStatementSql
+#else
+    <![CDATA[
+        $operation.mappedStatementSqlForPaging
+    ]]>
+#end
+    </select>
+
+## an additional select count(*) statement for paging
+    <!-- mapped statement for ${table.ibatisClassName}.${operation.name}, needed by paging -->
+    <select id="${operation.mappedStatementIdForCount}" ${operation.mappedStatementResultForCount}>
+#if (${operation.hasSqlmap})
+        $operation.mappedStatementSqlForCount
+#else
+    <![CDATA[
+        $operation.mappedStatementSqlForCount
+    ]]>
+#end
+    </select>
+
+#else
+    <select id="${operation.mappedStatementId}" ${operation.mappedStatementResult}>
+#if (${operation.hasSqlmap})
+        $operation.mappedStatementSql
+#else
+    <![CDATA[
+        $operation.mappedStatementSql
+    ]]>
+#end
+    </select>
+
+#end
+#else
+    <${operation.mappedStatementType} id="${operation.mappedStatementId}">
+#if (${operation.hasSqlmap})
+        $operation.mappedStatementSql
+#else
+    <![CDATA[
+        $operation.mappedStatementSql
+    ]]>
+#end
+    </${operation.mappedStatementType}>
+
+#end
+#end
+</sqlMap>

@@ -1,0 +1,412 @@
+2018-01-26 11:52:17,997 LOGGER INFO  [] - **********************************
+2018-01-26 11:52:18,007 LOGGER INFO  [] - * 开始启动dalgen任务 *
+2018-01-26 11:52:18,008 LOGGER INFO  [] - * middlegen.MiddlegenTask *
+2018-01-26 11:52:18,008 LOGGER INFO  [] - **********************************
+2018-01-26 11:52:18,009 LOGGER INFO  [] - 系统启动，注册[IWalletPlugin]插件...
+2018-01-26 11:52:18,011 LOGGER INFO  [] - 注册插件： iwallet->middlegen.plugins.iwallet.IWalletPlugin
+2018-01-26 11:52:18,012 LOGGER INFO  [] - 任务创建动态节点：iwallet
+2018-01-26 11:52:18,021 LOGGER INFO  [] - 开始执行dalgen任务：middlegen.MiddlegenTask
+2018-01-26 11:54:37,296 LOGGER INFO  [] - 系统参数，KEY[target.project.path], Value[d:/CodeGIT/atom-jeesitD].
+2018-01-26 11:54:37,296 LOGGER INFO  [] - 系统参数，KEY[jdbc.passwd], Value[lucy].
+2018-01-26 11:54:37,296 LOGGER INFO  [] - 系统参数，KEY[app.dbtype], Value[mysql].
+2018-01-26 11:54:37,296 LOGGER INFO  [] - 系统参数，KEY[jdbc.user], Value[lucy].
+2018-01-26 11:54:37,296 LOGGER INFO  [] - 系统参数，KEY[input.encoding], Value[UTF-8].
+2018-01-26 11:54:37,296 LOGGER INFO  [] - 系统参数，KEY[filter.db_now_key.value], Value[NOW()].
+2018-01-26 11:54:37,297 LOGGER INFO  [] - 系统参数，KEY[jdbc.url], Value[jdbc:mysql://199.155.122.203:3306/taotaosou_com?characterEncoding=utf-8].
+2018-01-26 11:54:37,297 LOGGER INFO  [] - 系统参数，KEY[target.middlegen.package], Value[com.github.obullxl.jeesite].
+2018-01-26 11:54:37,297 LOGGER INFO  [] - 系统参数，KEY[output.encoding], Value[UTF-8].
+2018-01-26 11:54:37,297 LOGGER INFO  [] - 系统参数，KEY[filter.db_now_key], Value[{{DB_NOW}}].
+2018-01-26 11:54:37,297 LOGGER INFO  [] - 系统参数，KEY[dependency.lib.path], Value[${user.home}/atom-dalgen/libs].
+2018-01-26 11:54:37,297 LOGGER INFO  [] - 系统参数，KEY[target.middlegen.package.dir], Value[com/github/obullxl/jeesite].
+2018-01-26 11:54:37,297 LOGGER INFO  [] - 系统参数，KEY[app.name], Value[jeesite].
+2018-01-26 11:54:37,297 LOGGER INFO  [] - 系统参数，KEY[jdbc.driver], Value[com.mysql.jdbc.Driver].
+2018-01-26 11:54:37,297 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[app.name], Value[jeesite].
+2018-01-26 11:54:37,297 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[app.name], Value[jeesite].
+2018-01-26 11:54:37,301 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.schema], Value[null].
+2018-01-26 11:54:37,301 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.schema], Value[].
+2018-01-26 11:54:37,301 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.catalog], Value[null].
+2018-01-26 11:54:37,302 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[sort.columns], Value[null].
+2018-01-26 11:54:37,328 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.driver], Value[com.mysql.jdbc.Driver].
+2018-01-26 11:54:37,329 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.url], Value[jdbc:mysql://199.155.122.203:3306/taotaosou_com?characterEncoding=utf-8].
+2018-01-26 11:54:37,329 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.user], Value[lucy].
+2018-01-26 11:54:37,329 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.passwd], Value[lucy].
+2018-01-26 13:41:01,012 LOGGER INFO  [] - **********************************
+2018-01-26 13:41:01,015 LOGGER INFO  [] - * 开始启动dalgen任务 *
+2018-01-26 13:41:01,015 LOGGER INFO  [] - * middlegen.MiddlegenTask *
+2018-01-26 13:41:01,015 LOGGER INFO  [] - **********************************
+2018-01-26 13:41:01,016 LOGGER INFO  [] - 系统启动，注册[IWalletPlugin]插件...
+2018-01-26 13:41:01,017 LOGGER INFO  [] - 注册插件： iwallet->middlegen.plugins.iwallet.IWalletPlugin
+2018-01-26 13:41:01,019 LOGGER INFO  [] - 任务创建动态节点：iwallet
+2018-01-26 13:41:01,026 LOGGER INFO  [] - 开始执行dalgen任务：middlegen.MiddlegenTask
+2018-01-26 13:41:01,143 LOGGER INFO  [] - 系统参数，KEY[target.project.path], Value[d:/CodeGIT/atom-jeesitD].
+2018-01-26 13:41:01,143 LOGGER INFO  [] - 系统参数，KEY[jdbc.passwd], Value[lucy].
+2018-01-26 13:41:01,143 LOGGER INFO  [] - 系统参数，KEY[app.dbtype], Value[mysql].
+2018-01-26 13:41:01,143 LOGGER INFO  [] - 系统参数，KEY[jdbc.user], Value[lucy].
+2018-01-26 13:41:01,143 LOGGER INFO  [] - 系统参数，KEY[input.encoding], Value[UTF-8].
+2018-01-26 13:41:01,143 LOGGER INFO  [] - 系统参数，KEY[filter.db_now_key.value], Value[NOW()].
+2018-01-26 13:41:01,143 LOGGER INFO  [] - 系统参数，KEY[jdbc.url], Value[jdbc:mysql://199.155.122.203:3306/taotaosou_com?characterEncoding=utf-8].
+2018-01-26 13:41:01,143 LOGGER INFO  [] - 系统参数，KEY[target.middlegen.package], Value[com.github.obullxl.jeesite].
+2018-01-26 13:41:01,143 LOGGER INFO  [] - 系统参数，KEY[output.encoding], Value[UTF-8].
+2018-01-26 13:41:01,143 LOGGER INFO  [] - 系统参数，KEY[filter.db_now_key], Value[{{DB_NOW}}].
+2018-01-26 13:41:01,143 LOGGER INFO  [] - 系统参数，KEY[dependency.lib.path], Value[${user.home}/atom-dalgen/libs].
+2018-01-26 13:41:01,144 LOGGER INFO  [] - 系统参数，KEY[target.middlegen.package.dir], Value[com/github/obullxl/jeesite].
+2018-01-26 13:41:01,144 LOGGER INFO  [] - 系统参数，KEY[app.name], Value[jeesite].
+2018-01-26 13:41:01,144 LOGGER INFO  [] - 系统参数，KEY[jdbc.driver], Value[com.mysql.jdbc.Driver].
+2018-01-26 13:41:01,144 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[app.name], Value[jeesite].
+2018-01-26 13:41:01,149 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[app.name], Value[jeesite].
+2018-01-26 13:41:01,151 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.schema], Value[null].
+2018-01-26 13:41:01,151 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.schema], Value[].
+2018-01-26 13:41:01,151 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.catalog], Value[null].
+2018-01-26 13:41:01,151 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[sort.columns], Value[null].
+2018-01-26 13:41:01,164 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.driver], Value[com.mysql.jdbc.Driver].
+2018-01-26 13:41:01,164 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.url], Value[jdbc:mysql://199.155.122.203:3306/taotaosou_com?characterEncoding=utf-8].
+2018-01-26 13:41:01,164 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.user], Value[lucy].
+2018-01-26 13:41:01,164 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.passwd], Value[lucy].
+2018-01-26 13:41:22,317 LOGGER INFO  [] - dalgen任务执行完成, 耗时[21291]ms.
+2018-01-26 13:42:43,469 LOGGER INFO  [] - **********************************
+2018-01-26 13:42:43,471 LOGGER INFO  [] - * 开始启动dalgen任务 *
+2018-01-26 13:42:43,471 LOGGER INFO  [] - * middlegen.MiddlegenTask *
+2018-01-26 13:42:43,471 LOGGER INFO  [] - **********************************
+2018-01-26 13:42:43,473 LOGGER INFO  [] - 系统启动，注册[IWalletPlugin]插件...
+2018-01-26 13:42:43,474 LOGGER INFO  [] - 注册插件： iwallet->middlegen.plugins.iwallet.IWalletPlugin
+2018-01-26 13:42:43,475 LOGGER INFO  [] - 任务创建动态节点：iwallet
+2018-01-26 13:42:43,482 LOGGER INFO  [] - 开始执行dalgen任务：middlegen.MiddlegenTask
+2018-01-26 13:42:43,595 LOGGER INFO  [] - 系统参数，KEY[target.project.path], Value[d:/CodeGIT/atom-jeesitD].
+2018-01-26 13:42:43,595 LOGGER INFO  [] - 系统参数，KEY[jdbc.passwd], Value[lucy].
+2018-01-26 13:42:43,595 LOGGER INFO  [] - 系统参数，KEY[app.dbtype], Value[mysql].
+2018-01-26 13:42:43,595 LOGGER INFO  [] - 系统参数，KEY[jdbc.user], Value[lucy].
+2018-01-26 13:42:43,595 LOGGER INFO  [] - 系统参数，KEY[input.encoding], Value[UTF-8].
+2018-01-26 13:42:43,595 LOGGER INFO  [] - 系统参数，KEY[filter.db_now_key.value], Value[NOW()].
+2018-01-26 13:42:43,595 LOGGER INFO  [] - 系统参数，KEY[jdbc.url], Value[jdbc:mysql://199.155.122.203:3306/taotaosou_com?characterEncoding=utf-8].
+2018-01-26 13:42:43,595 LOGGER INFO  [] - 系统参数，KEY[target.middlegen.package], Value[com.github.obullxl.jeesite].
+2018-01-26 13:42:43,596 LOGGER INFO  [] - 系统参数，KEY[output.encoding], Value[UTF-8].
+2018-01-26 13:42:43,596 LOGGER INFO  [] - 系统参数，KEY[filter.db_now_key], Value[{{DB_NOW}}].
+2018-01-26 13:42:43,596 LOGGER INFO  [] - 系统参数，KEY[dependency.lib.path], Value[${user.home}/atom-dalgen/libs].
+2018-01-26 13:42:43,596 LOGGER INFO  [] - 系统参数，KEY[target.middlegen.package.dir], Value[com/github/obullxl/jeesite].
+2018-01-26 13:42:43,596 LOGGER INFO  [] - 系统参数，KEY[app.name], Value[jeesite].
+2018-01-26 13:42:43,596 LOGGER INFO  [] - 系统参数，KEY[jdbc.driver], Value[com.mysql.jdbc.Driver].
+2018-01-26 13:42:43,596 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[app.name], Value[jeesite].
+2018-01-26 13:42:43,600 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[app.name], Value[jeesite].
+2018-01-26 13:42:43,602 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.schema], Value[null].
+2018-01-26 13:42:43,602 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.schema], Value[].
+2018-01-26 13:42:43,602 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.catalog], Value[null].
+2018-01-26 13:42:43,602 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[sort.columns], Value[null].
+2018-01-26 13:42:43,614 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.driver], Value[com.mysql.jdbc.Driver].
+2018-01-26 13:42:43,614 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.url], Value[jdbc:mysql://199.155.122.203:3306/taotaosou_com?characterEncoding=utf-8].
+2018-01-26 13:42:43,614 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.user], Value[lucy].
+2018-01-26 13:42:43,615 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.passwd], Value[lucy].
+2018-01-26 13:43:04,766 LOGGER INFO  [] - dalgen任务执行完成, 耗时[21284]ms.
+2018-01-26 13:43:49,780 LOGGER INFO  [] - **********************************
+2018-01-26 13:43:49,783 LOGGER INFO  [] - * 开始启动dalgen任务 *
+2018-01-26 13:43:49,783 LOGGER INFO  [] - * middlegen.MiddlegenTask *
+2018-01-26 13:43:49,783 LOGGER INFO  [] - **********************************
+2018-01-26 13:43:49,784 LOGGER INFO  [] - 系统启动，注册[IWalletPlugin]插件...
+2018-01-26 13:43:49,785 LOGGER INFO  [] - 注册插件： iwallet->middlegen.plugins.iwallet.IWalletPlugin
+2018-01-26 13:43:49,786 LOGGER INFO  [] - 任务创建动态节点：iwallet
+2018-01-26 13:43:49,793 LOGGER INFO  [] - 开始执行dalgen任务：middlegen.MiddlegenTask
+2018-01-26 13:43:49,891 LOGGER INFO  [] - 系统参数，KEY[target.project.path], Value[d:/CodeGIT/atom-jeesitD].
+2018-01-26 13:43:49,891 LOGGER INFO  [] - 系统参数，KEY[jdbc.passwd], Value[changtian].
+2018-01-26 13:43:49,892 LOGGER INFO  [] - 系统参数，KEY[app.dbtype], Value[mysql].
+2018-01-26 13:43:49,892 LOGGER INFO  [] - 系统参数，KEY[jdbc.user], Value[root].
+2018-01-26 13:43:49,892 LOGGER INFO  [] - 系统参数，KEY[input.encoding], Value[UTF-8].
+2018-01-26 13:43:49,892 LOGGER INFO  [] - 系统参数，KEY[filter.db_now_key.value], Value[NOW()].
+2018-01-26 13:43:49,892 LOGGER INFO  [] - 系统参数，KEY[jdbc.url], Value[jdbc:mysql://192.168.1.204:3306/ct_indu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8].
+2018-01-26 13:43:49,894 LOGGER INFO  [] - 系统参数，KEY[target.middlegen.package], Value[com.github.obullxl.jeesite].
+2018-01-26 13:43:49,894 LOGGER INFO  [] - 系统参数，KEY[output.encoding], Value[UTF-8].
+2018-01-26 13:43:49,894 LOGGER INFO  [] - 系统参数，KEY[filter.db_now_key], Value[{{DB_NOW}}].
+2018-01-26 13:43:49,894 LOGGER INFO  [] - 系统参数，KEY[dependency.lib.path], Value[${user.home}/atom-dalgen/libs].
+2018-01-26 13:43:49,895 LOGGER INFO  [] - 系统参数，KEY[target.middlegen.package.dir], Value[com/github/obullxl/jeesite].
+2018-01-26 13:43:49,895 LOGGER INFO  [] - 系统参数，KEY[app.name], Value[jeesite].
+2018-01-26 13:43:49,895 LOGGER INFO  [] - 系统参数，KEY[jdbc.driver], Value[com.mysql.jdbc.Driver].
+2018-01-26 13:43:49,895 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[app.name], Value[jeesite].
+2018-01-26 13:43:49,902 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[app.name], Value[jeesite].
+2018-01-26 13:43:49,905 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.schema], Value[null].
+2018-01-26 13:43:49,905 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.schema], Value[].
+2018-01-26 13:43:49,905 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.catalog], Value[null].
+2018-01-26 13:43:49,906 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[sort.columns], Value[null].
+2018-01-26 13:43:49,922 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.driver], Value[com.mysql.jdbc.Driver].
+2018-01-26 13:43:49,923 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.url], Value[jdbc:mysql://192.168.1.204:3306/ct_indu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8].
+2018-01-26 13:43:49,923 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.user], Value[root].
+2018-01-26 13:43:49,923 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.passwd], Value[changtian].
+2018-01-26 13:43:50,363 LOGGER INFO  [] - databaseProductName= MySQL
+2018-01-26 13:43:50,363 LOGGER INFO  [] - databaseProductVersion= 5.6.29
+2018-01-26 13:43:50,363 LOGGER INFO  [] - driverName= MySQL-AB JDBC Driver
+2018-01-26 13:43:50,363 LOGGER INFO  [] - driverVersion= mysql-connector-java-5.1.16 ( Revision: ${bzr.revision-id} )
+2018-01-26 13:43:50,363 LOGGER INFO  [] - schema= 
+2018-01-26 13:43:50,363 LOGGER INFO  [] - catalog= null
+2018-01-26 13:43:50,363 LOGGER INFO  [] - 验证插件：iwallet
+2018-01-26 13:43:50,364 LOGGER INFO  [] - -- tables --
+2018-01-26 13:43:50,408 LOGGER INFO  [] - dalgen任务执行完成, 耗时[615]ms.
+2018-01-26 13:45:02,918 LOGGER INFO  [] - **********************************
+2018-01-26 13:45:02,921 LOGGER INFO  [] - * 开始启动dalgen任务 *
+2018-01-26 13:45:02,921 LOGGER INFO  [] - * middlegen.MiddlegenTask *
+2018-01-26 13:45:02,921 LOGGER INFO  [] - **********************************
+2018-01-26 13:45:02,922 LOGGER INFO  [] - 系统启动，注册[IWalletPlugin]插件...
+2018-01-26 13:45:02,923 LOGGER INFO  [] - 注册插件： iwallet->middlegen.plugins.iwallet.IWalletPlugin
+2018-01-26 13:45:02,925 LOGGER INFO  [] - 任务创建动态节点：iwallet
+2018-01-26 13:45:02,932 LOGGER INFO  [] - 开始执行dalgen任务：middlegen.MiddlegenTask
+2018-01-26 13:45:03,039 LOGGER INFO  [] - 系统参数，KEY[target.project.path], Value[d:/CodeGIT/atom-jeesitD].
+2018-01-26 13:45:03,039 LOGGER INFO  [] - 系统参数，KEY[jdbc.passwd], Value[changtian].
+2018-01-26 13:45:03,039 LOGGER INFO  [] - 系统参数，KEY[app.dbtype], Value[mysql].
+2018-01-26 13:45:03,039 LOGGER INFO  [] - 系统参数，KEY[jdbc.user], Value[root].
+2018-01-26 13:45:03,039 LOGGER INFO  [] - 系统参数，KEY[input.encoding], Value[UTF-8].
+2018-01-26 13:45:03,039 LOGGER INFO  [] - 系统参数，KEY[filter.db_now_key.value], Value[NOW()].
+2018-01-26 13:45:03,039 LOGGER INFO  [] - 系统参数，KEY[jdbc.url], Value[jdbc:mysql://192.168.1.204:3306/ct_indu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8].
+2018-01-26 13:45:03,039 LOGGER INFO  [] - 系统参数，KEY[target.middlegen.package], Value[com.github.obullxl.jeesite].
+2018-01-26 13:45:03,040 LOGGER INFO  [] - 系统参数，KEY[output.encoding], Value[UTF-8].
+2018-01-26 13:45:03,040 LOGGER INFO  [] - 系统参数，KEY[filter.db_now_key], Value[{{DB_NOW}}].
+2018-01-26 13:45:03,040 LOGGER INFO  [] - 系统参数，KEY[dependency.lib.path], Value[${user.home}/atom-dalgen/libs].
+2018-01-26 13:45:03,040 LOGGER INFO  [] - 系统参数，KEY[target.middlegen.package.dir], Value[com/github/obullxl/jeesite].
+2018-01-26 13:45:03,040 LOGGER INFO  [] - 系统参数，KEY[app.name], Value[jeesite].
+2018-01-26 13:45:03,040 LOGGER INFO  [] - 系统参数，KEY[jdbc.driver], Value[com.mysql.jdbc.Driver].
+2018-01-26 13:45:03,040 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[app.name], Value[jeesite].
+2018-01-26 13:45:03,047 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[app.name], Value[jeesite].
+2018-01-26 13:45:03,049 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.schema], Value[null].
+2018-01-26 13:45:03,049 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.schema], Value[].
+2018-01-26 13:45:03,050 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.catalog], Value[null].
+2018-01-26 13:45:03,050 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[sort.columns], Value[null].
+2018-01-26 13:45:03,062 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.driver], Value[com.mysql.jdbc.Driver].
+2018-01-26 13:45:03,063 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.url], Value[jdbc:mysql://192.168.1.204:3306/ct_indu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8].
+2018-01-26 13:45:03,063 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.user], Value[root].
+2018-01-26 13:45:03,063 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.passwd], Value[changtian].
+2018-01-26 13:45:03,645 LOGGER INFO  [] - databaseProductName= MySQL
+2018-01-26 13:45:03,645 LOGGER INFO  [] - databaseProductVersion= 5.6.29
+2018-01-26 13:45:03,645 LOGGER INFO  [] - driverName= MySQL-AB JDBC Driver
+2018-01-26 13:45:03,645 LOGGER INFO  [] - driverVersion= mysql-connector-java-5.1.16 ( Revision: ${bzr.revision-id} )
+2018-01-26 13:45:03,645 LOGGER INFO  [] - schema= 
+2018-01-26 13:45:03,645 LOGGER INFO  [] - catalog= null
+2018-01-26 13:45:03,645 LOGGER INFO  [] - 验证插件：iwallet
+2018-01-26 13:45:03,646 LOGGER INFO  [] - -- tables --
+2018-01-26 13:45:03,656 LOGGER INFO  [] - -------setColumns(inducf_resource_article)
+2018-01-26 13:45:03,662 LOGGER INFO  [] - primary key:id
+2018-01-26 13:45:03,671 LOGGER INFO  [] - index:id
+2018-01-26 13:45:03,671 LOGGER INFO  [] - unique:id (PRIMARY)
+2018-01-26 13:45:03,671 LOGGER INFO  [] - index:article_type_id
+2018-01-26 13:45:03,671 LOGGER INFO  [] - index:tag_ids
+2018-01-26 13:45:03,707 LOGGER INFO  [] - unique column:id
+2018-01-26 13:45:10,876 LOGGER INFO  [] - singularise:InducfResourceArticle
+2018-01-26 13:45:10,876 LOGGER INFO  [] - singularised InducfResourceArticle to InducfResourceArticle
+2018-01-26 13:45:10,880 LOGGER INFO  [] - 执行插件生成代码：iwallet
+2018-01-26 13:45:10,887 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 13:45:10,887 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 13:45:10,887 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 13:45:10,887 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 13:45:10,893 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[input.encoding], Value[UTF-8].
+2018-01-26 13:45:10,893 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[input.encoding], Value[UTF-8].
+2018-01-26 13:45:10,893 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[output.encoding], Value[UTF-8].
+2018-01-26 13:45:10,893 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[output.encoding], Value[UTF-8].
+2018-01-26 13:45:11,174 LOGGER INFO  [] - Generating D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\resources\ibatis\mapping\InducfResourceArticle.xml using template from file:/D:/WorkProject/ibatis-dalgen-master/dalgen/templates/table-sqlmap-mapping.vm
+2018-01-26 13:45:11,209 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 13:45:11,209 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 13:45:11,209 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\resources\ibatis\mapping\InducfResourceArticle.xml], 覆盖标志[false].
+2018-01-26 13:45:11,247 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key], Value[{{DB_NOW}}].
+2018-01-26 13:45:11,249 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 13:45:11,249 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\resources\ibatis\mapping\InducfResourceArticle.xml]-FKey[{{DB_NOW}}]-FValue[NOW()].
+2018-01-26 13:45:11,249 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 13:45:11,249 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value.value], Value[null].
+2018-01-26 13:45:11,249 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\resources\ibatis\mapping\InducfResourceArticle.xml]-FKey[NOW()]-FValue[null].
+2018-01-26 13:45:11,251 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\resources\ibatis\mapping\InducfResourceArticle.xml]已经存在, 忽略生成.
+2018-01-26 13:45:11,253 LOGGER INFO  [] - Generating D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\java\com\taotaosou\main\dao\impl\InducfResourceArticleDaoImpl.java using template from file:/D:/WorkProject/ibatis-dalgen-master/dalgen/templates/daoImpl.vm
+2018-01-26 13:45:11,256 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[baseDaoClass], Value[null].
+2018-01-26 13:45:11,257 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[baseDaoClass], Value[com.taotaosou.foundation.base.data.BaseDao1].
+2018-01-26 13:45:11,257 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[baseDaoClass], Value[null].
+2018-01-26 13:45:11,257 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[baseDaoClass], Value[com.taotaosou.foundation.base.data.BaseDao1].
+2018-01-26 13:45:11,264 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 13:45:11,265 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 13:45:11,270 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 13:45:11,270 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 13:45:11,271 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 13:45:11,271 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 13:45:11,282 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 13:45:11,282 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 13:45:11,289 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 13:45:11,297 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 13:45:11,298 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\java\com\taotaosou\main\dao\impl\InducfResourceArticleDaoImpl.java], 覆盖标志[false].
+2018-01-26 13:45:11,300 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key], Value[{{DB_NOW}}].
+2018-01-26 13:45:11,301 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 13:45:11,302 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\java\com\taotaosou\main\dao\impl\InducfResourceArticleDaoImpl.java]-FKey[{{DB_NOW}}]-FValue[NOW()].
+2018-01-26 13:45:11,302 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 13:45:11,302 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value.value], Value[null].
+2018-01-26 13:45:11,302 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\java\com\taotaosou\main\dao\impl\InducfResourceArticleDaoImpl.java]-FKey[NOW()]-FValue[null].
+2018-01-26 13:45:11,307 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\java\com\taotaosou\main\dao\impl\InducfResourceArticleDaoImpl.java]已经存在, 忽略生成.
+2018-01-26 13:45:11,310 LOGGER INFO  [] - Generating D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\java\com\taotaosou\main\dao\InducfResourceArticleDao.java using template from file:/D:/WorkProject/ibatis-dalgen-master/dalgen/templates/dao.vm
+2018-01-26 13:45:11,315 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 13:45:11,315 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 13:45:11,320 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 13:45:11,320 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 13:45:11,320 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 13:45:11,320 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 13:45:11,321 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\java\com\taotaosou\main\dao\InducfResourceArticleDao.java], 覆盖标志[false].
+2018-01-26 13:45:11,323 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key], Value[{{DB_NOW}}].
+2018-01-26 13:45:11,323 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 13:45:11,323 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\java\com\taotaosou\main\dao\InducfResourceArticleDao.java]-FKey[{{DB_NOW}}]-FValue[NOW()].
+2018-01-26 13:45:11,323 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 13:45:11,323 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value.value], Value[null].
+2018-01-26 13:45:11,323 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\java\com\taotaosou\main\dao\InducfResourceArticleDao.java]-FKey[NOW()]-FValue[null].
+2018-01-26 13:45:11,324 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\java\com\taotaosou\main\dao\InducfResourceArticleDao.java]已经存在, 忽略生成.
+2018-01-26 13:45:11,326 LOGGER INFO  [] - Generating D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\java\com\taotaosou\main\model\InducfResourceArticleDto.java using template from file:/D:/WorkProject/ibatis-dalgen-master/dalgen/templates/do.vm
+2018-01-26 13:45:11,335 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\java\com\taotaosou\main\model\InducfResourceArticleDto.java], 覆盖标志[false].
+2018-01-26 13:45:11,337 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key], Value[{{DB_NOW}}].
+2018-01-26 13:45:11,338 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 13:45:11,338 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\java\com\taotaosou\main\model\InducfResourceArticleDto.java]-FKey[{{DB_NOW}}]-FValue[NOW()].
+2018-01-26 13:45:11,338 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 13:45:11,338 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value.value], Value[null].
+2018-01-26 13:45:11,338 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\java\com\taotaosou\main\model\InducfResourceArticleDto.java]-FKey[NOW()]-FValue[null].
+2018-01-26 13:45:11,339 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\src\main\java\com\taotaosou\main\model\InducfResourceArticleDto.java]已经存在, 忽略生成.
+2018-01-26 13:45:11,340 LOGGER INFO  [] - dalgen任务执行完成, 耗时[8409]ms.
+2018-01-26 14:45:14,805 LOGGER INFO  [] - **********************************
+2018-01-26 14:45:14,807 LOGGER INFO  [] - * 开始启动dalgen任务 *
+2018-01-26 14:45:14,807 LOGGER INFO  [] - * middlegen.MiddlegenTask *
+2018-01-26 14:45:14,807 LOGGER INFO  [] - **********************************
+2018-01-26 14:45:14,809 LOGGER INFO  [] - 系统启动，注册[IWalletPlugin]插件...
+2018-01-26 14:45:14,811 LOGGER INFO  [] - 注册插件： iwallet->middlegen.plugins.iwallet.IWalletPlugin
+2018-01-26 14:45:14,813 LOGGER INFO  [] - 任务创建动态节点：iwallet
+2018-01-26 14:45:14,820 LOGGER INFO  [] - 开始执行dalgen任务：middlegen.MiddlegenTask
+2018-01-26 14:50:21,651 LOGGER INFO  [] - 系统参数，KEY[target.project.path], Value[d:/CodeGIT/atom-jeesitD].
+2018-01-26 14:50:21,652 LOGGER INFO  [] - 系统参数，KEY[jdbc.passwd], Value[changtian].
+2018-01-26 14:50:21,654 LOGGER INFO  [] - 系统参数，KEY[app.dbtype], Value[mysql].
+2018-01-26 14:50:21,656 LOGGER INFO  [] - 系统参数，KEY[jdbc.user], Value[root].
+2018-01-26 14:50:21,657 LOGGER INFO  [] - 系统参数，KEY[input.encoding], Value[UTF-8].
+2018-01-26 14:50:21,659 LOGGER INFO  [] - 系统参数，KEY[filter.db_now_key.value], Value[NOW()].
+2018-01-26 14:50:21,660 LOGGER INFO  [] - 系统参数，KEY[jdbc.url], Value[jdbc:mysql://192.168.1.204:3306/ct_indu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8].
+2018-01-26 14:50:21,662 LOGGER INFO  [] - 系统参数，KEY[target.middlegen.package], Value[com.github.obullxl.jeesite].
+2018-01-26 14:50:21,663 LOGGER INFO  [] - 系统参数，KEY[output.encoding], Value[UTF-8].
+2018-01-26 14:50:21,665 LOGGER INFO  [] - 系统参数，KEY[filter.db_now_key], Value[{{DB_NOW}}].
+2018-01-26 14:50:21,666 LOGGER INFO  [] - 系统参数，KEY[dependency.lib.path], Value[${user.home}/atom-dalgen/libs].
+2018-01-26 14:50:21,668 LOGGER INFO  [] - 系统参数，KEY[target.middlegen.package.dir], Value[com/github/obullxl/jeesite].
+2018-01-26 14:50:21,669 LOGGER INFO  [] - 系统参数，KEY[app.name], Value[jeesite].
+2018-01-26 14:50:21,671 LOGGER INFO  [] - 系统参数，KEY[jdbc.driver], Value[com.mysql.jdbc.Driver].
+2018-01-26 14:50:21,673 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[app.name], Value[jeesite].
+2018-01-26 14:50:21,680 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[app.name], Value[jeesite].
+2018-01-26 14:50:28,059 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.schema], Value[null].
+2018-01-26 14:50:28,059 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.schema], Value[].
+2018-01-26 14:50:28,060 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.catalog], Value[null].
+2018-01-26 14:50:28,060 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[sort.columns], Value[null].
+2018-01-26 14:50:28,079 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.driver], Value[com.mysql.jdbc.Driver].
+2018-01-26 14:50:28,080 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.url], Value[jdbc:mysql://192.168.1.204:3306/ct_indu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8].
+2018-01-26 14:50:28,080 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.user], Value[root].
+2018-01-26 14:50:28,080 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.passwd], Value[changtian].
+2018-01-26 14:50:28,494 LOGGER INFO  [] - databaseProductName= MySQL
+2018-01-26 14:50:28,494 LOGGER INFO  [] - databaseProductVersion= 5.6.29
+2018-01-26 14:50:28,494 LOGGER INFO  [] - driverName= MySQL-AB JDBC Driver
+2018-01-26 14:50:28,494 LOGGER INFO  [] - driverVersion= mysql-connector-java-5.1.16 ( Revision: ${bzr.revision-id} )
+2018-01-26 14:50:28,494 LOGGER INFO  [] - schema= 
+2018-01-26 14:50:28,494 LOGGER INFO  [] - catalog= null
+2018-01-26 14:50:28,494 LOGGER INFO  [] - 验证插件：iwallet
+2018-01-26 14:50:28,496 LOGGER INFO  [] - -- tables --
+2018-01-26 14:50:28,508 LOGGER INFO  [] - -------setColumns(inducf_resource_article)
+2018-01-26 14:50:28,516 LOGGER INFO  [] - primary key:id
+2018-01-26 14:50:28,530 LOGGER INFO  [] - index:id
+2018-01-26 14:50:28,530 LOGGER INFO  [] - unique:id (PRIMARY)
+2018-01-26 14:50:28,530 LOGGER INFO  [] - index:article_type_id
+2018-01-26 14:50:28,530 LOGGER INFO  [] - index:tag_ids
+2018-01-26 14:50:28,552 LOGGER INFO  [] - unique column:id
+2018-01-26 14:50:34,560 LOGGER INFO  [] - singularise:InducfResourceArticle
+2018-01-26 14:50:34,561 LOGGER INFO  [] - singularised InducfResourceArticle to InducfResourceArticle
+2018-01-26 14:50:34,561 LOGGER INFO  [] - 执行插件生成代码：iwallet
+2018-01-26 14:50:34,568 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 14:50:34,569 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 14:50:34,569 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 14:50:34,569 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 14:50:34,573 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[input.encoding], Value[UTF-8].
+2018-01-26 14:50:34,573 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[input.encoding], Value[UTF-8].
+2018-01-26 14:50:34,573 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[output.encoding], Value[UTF-8].
+2018-01-26 14:50:34,573 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[output.encoding], Value[UTF-8].
+2018-01-26 14:50:34,807 LOGGER INFO  [] - Generating D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\resources\ibatis\mapping\InducfResourceArticle.xml using template from file:/D:/WorkProject/ibatis-dalgen-master/dalgen/templates/table-sqlmap-mapping.vm
+2018-01-26 14:50:34,902 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 14:50:34,903 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 14:50:34,903 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\resources\ibatis\mapping\InducfResourceArticle.xml], 覆盖标志[false].
+2018-01-26 14:50:34,909 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key], Value[{{DB_NOW}}].
+2018-01-26 14:50:34,910 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 14:50:34,910 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\resources\ibatis\mapping\InducfResourceArticle.xml]-FKey[{{DB_NOW}}]-FValue[NOW()].
+2018-01-26 14:50:34,910 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 14:50:34,910 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value.value], Value[null].
+2018-01-26 14:50:34,910 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\resources\ibatis\mapping\InducfResourceArticle.xml]-FKey[NOW()]-FValue[null].
+2018-01-26 14:50:34,912 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\resources\ibatis\mapping\InducfResourceArticle.xml]已经存在, 忽略生成.
+2018-01-26 14:50:34,913 LOGGER INFO  [] - Generating D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\java\com\ctfin\dao\dao\impl\InducfResourceArticleDaoImpl.java using template from file:/D:/WorkProject/ibatis-dalgen-master/dalgen/templates/daoImpl.vm
+2018-01-26 14:50:34,938 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[baseDaoClass], Value[null].
+2018-01-26 14:50:34,938 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[baseDaoClass], Value[com.taotaosou.foundation.base.data.BaseDao1].
+2018-01-26 14:50:34,938 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[baseDaoClass], Value[null].
+2018-01-26 14:50:34,938 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[baseDaoClass], Value[com.taotaosou.foundation.base.data.BaseDao1].
+2018-01-26 14:50:34,962 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 14:50:34,962 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 14:50:34,984 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 14:50:34,984 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 14:50:34,984 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 14:50:34,984 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 14:50:35,042 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 14:50:35,042 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 14:50:35,043 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 14:50:35,044 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 14:50:35,046 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\java\com\ctfin\dao\dao\impl\InducfResourceArticleDaoImpl.java], 覆盖标志[false].
+2018-01-26 14:50:35,049 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key], Value[{{DB_NOW}}].
+2018-01-26 14:50:35,049 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 14:50:35,049 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\java\com\ctfin\dao\dao\impl\InducfResourceArticleDaoImpl.java]-FKey[{{DB_NOW}}]-FValue[NOW()].
+2018-01-26 14:50:35,049 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 14:50:35,049 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value.value], Value[null].
+2018-01-26 14:50:35,049 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\java\com\ctfin\dao\dao\impl\InducfResourceArticleDaoImpl.java]-FKey[NOW()]-FValue[null].
+2018-01-26 14:50:35,053 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\java\com\ctfin\dao\dao\impl\InducfResourceArticleDaoImpl.java]已经存在, 忽略生成.
+2018-01-26 14:50:35,054 LOGGER INFO  [] - Generating D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\java\com\ctfin\dao\dao\InducfResourceArticleDao.java using template from file:/D:/WorkProject/ibatis-dalgen-master/dalgen/templates/dao.vm
+2018-01-26 14:50:35,122 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 14:50:35,122 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 14:50:35,138 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 14:50:35,138 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 14:50:35,138 LOGGER INFO  [] - singularise:inducfResourceArticle
+2018-01-26 14:50:35,138 LOGGER INFO  [] - singularised inducfResourceArticle to inducfResourceArticle
+2018-01-26 14:50:35,139 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\java\com\ctfin\dao\dao\InducfResourceArticleDao.java], 覆盖标志[false].
+2018-01-26 14:50:35,143 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key], Value[{{DB_NOW}}].
+2018-01-26 14:50:35,143 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 14:50:35,143 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\java\com\ctfin\dao\dao\InducfResourceArticleDao.java]-FKey[{{DB_NOW}}]-FValue[NOW()].
+2018-01-26 14:50:35,144 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 14:50:35,144 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value.value], Value[null].
+2018-01-26 14:50:35,144 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\java\com\ctfin\dao\dao\InducfResourceArticleDao.java]-FKey[NOW()]-FValue[null].
+2018-01-26 14:50:35,145 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\java\com\ctfin\dao\dao\InducfResourceArticleDao.java]已经存在, 忽略生成.
+2018-01-26 14:50:35,148 LOGGER INFO  [] - Generating D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\java\com\ctfin\dao\model\InducfResourceArticleDto.java using template from file:/D:/WorkProject/ibatis-dalgen-master/dalgen/templates/do.vm
+2018-01-26 14:50:35,190 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\java\com\ctfin\dao\model\InducfResourceArticleDto.java], 覆盖标志[false].
+2018-01-26 14:50:35,192 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key], Value[{{DB_NOW}}].
+2018-01-26 14:50:35,192 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 14:50:35,192 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\java\com\ctfin\dao\model\InducfResourceArticleDto.java]-FKey[{{DB_NOW}}]-FValue[NOW()].
+2018-01-26 14:50:35,192 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value], Value[NOW()].
+2018-01-26 14:50:35,192 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[filter.db_now_key.value.value], Value[null].
+2018-01-26 14:50:35,192 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\java\com\ctfin\dao\model\InducfResourceArticleDto.java]-FKey[NOW()]-FValue[null].
+2018-01-26 14:50:35,193 LOGGER INFO  [] - [文件生成]-文件[D:\WorkProject\ibatis-dalgen-master\dalgen\kccf-dal\src\main\java\com\ctfin\dao\model\InducfResourceArticleDto.java]已经存在, 忽略生成.
+2018-01-26 14:50:35,194 LOGGER INFO  [] - dalgen任务执行完成, 耗时[320374]ms.
+2018-01-26 14:50:59,476 LOGGER INFO  [] - **********************************
+2018-01-26 14:50:59,479 LOGGER INFO  [] - * 开始启动dalgen任务 *
+2018-01-26 14:50:59,479 LOGGER INFO  [] - * middlegen.MiddlegenTask *
+2018-01-26 14:50:59,479 LOGGER INFO  [] - **********************************
+2018-01-26 14:50:59,480 LOGGER INFO  [] - 系统启动，注册[IWalletPlugin]插件...
+2018-01-26 14:50:59,482 LOGGER INFO  [] - 注册插件： iwallet->middlegen.plugins.iwallet.IWalletPlugin
+2018-01-26 14:50:59,484 LOGGER INFO  [] - 任务创建动态节点：iwallet
+2018-01-26 14:50:59,492 LOGGER INFO  [] - 开始执行dalgen任务：middlegen.MiddlegenTask
+2018-01-26 14:53:50,455 LOGGER INFO  [] - 系统参数，KEY[target.project.path], Value[d:/CodeGIT/atom-jeesitD].
+2018-01-26 14:53:50,455 LOGGER INFO  [] - 系统参数，KEY[jdbc.passwd], Value[changtian].
+2018-01-26 14:53:50,455 LOGGER INFO  [] - 系统参数，KEY[app.dbtype], Value[mysql].
+2018-01-26 14:53:50,455 LOGGER INFO  [] - 系统参数，KEY[jdbc.user], Value[root].
+2018-01-26 14:53:50,455 LOGGER INFO  [] - 系统参数，KEY[input.encoding], Value[UTF-8].
+2018-01-26 14:53:50,455 LOGGER INFO  [] - 系统参数，KEY[filter.db_now_key.value], Value[NOW()].
+2018-01-26 14:53:50,456 LOGGER INFO  [] - 系统参数，KEY[jdbc.url], Value[jdbc:mysql://192.168.1.204:3306/ct_indu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8].
+2018-01-26 14:53:50,456 LOGGER INFO  [] - 系统参数，KEY[target.middlegen.package], Value[com.github.obullxl.jeesite].
+2018-01-26 14:53:50,456 LOGGER INFO  [] - 系统参数，KEY[output.encoding], Value[UTF-8].
+2018-01-26 14:53:50,456 LOGGER INFO  [] - 系统参数，KEY[filter.db_now_key], Value[{{DB_NOW}}].
+2018-01-26 14:53:50,456 LOGGER INFO  [] - 系统参数，KEY[dependency.lib.path], Value[${user.home}/atom-dalgen/libs].
+2018-01-26 14:53:50,456 LOGGER INFO  [] - 系统参数，KEY[target.middlegen.package.dir], Value[com/github/obullxl/jeesite].
+2018-01-26 14:53:50,456 LOGGER INFO  [] - 系统参数，KEY[app.name], Value[jeesite].
+2018-01-26 14:53:50,456 LOGGER INFO  [] - 系统参数，KEY[jdbc.driver], Value[com.mysql.jdbc.Driver].
+2018-01-26 14:53:50,456 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[app.name], Value[jeesite].
+2018-01-26 14:53:50,462 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[app.name], Value[jeesite].
+2018-01-26 14:54:16,867 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.schema], Value[null].
+2018-01-26 14:54:16,867 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.schema], Value[].
+2018-01-26 14:54:16,868 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.catalog], Value[null].
+2018-01-26 14:54:16,868 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[sort.columns], Value[null].
+2018-01-26 14:54:16,901 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.driver], Value[com.mysql.jdbc.Driver].
+2018-01-26 14:54:16,901 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.url], Value[jdbc:mysql://192.168.1.204:3306/ct_indu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8].
+2018-01-26 14:54:16,902 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.user], Value[root].
+2018-01-26 14:54:16,902 LOGGER INFO  [] - [系统参数]-查询系统参数, Key[jdbc.passwd], Value[changtian].
+2018-01-26 14:54:17,473 LOGGER INFO  [] - databaseProductName= MySQL
+2018-01-26 14:54:17,473 LOGGER INFO  [] - databaseProductVersion= 5.6.29
+2018-01-26 14:54:17,474 LOGGER INFO  [] - driverName= MySQL-AB JDBC Driver
+2018-01-26 14:54:17,474 LOGGER INFO  [] - driverVersion= mysql-connector-java-5.1.16 ( Revision: ${bzr.revision-id} )
+2018-01-26 14:54:17,475 LOGGER INFO  [] - schema= 
+2018-01-26 14:54:17,475 LOGGER INFO  [] - catalog= null
+2018-01-26 14:54:23,333 LOGGER INFO  [] - 验证插件：iwallet

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module>
+	<library version="1.0">
+	<class>
+      <path>alipay-thirdparty-dalgen-1.0.jar</path>
+      <source-path>alipay-thirdparty-dalgen-1.0-src.jar</source-path>
+      <documentation-path>alipay-thirdparty-dalgen-1.0-doc.jar</documentation-path>
+    </class>
+    <required>jakarta/ant</required>
+    <required>jakarta/log4j</required>
+    <required>jakarta/velocity</required>
+    <required>jakarta/commons/beanutils</required>
+    <required>jakarta/commons/collections</required>
+    <required>jakarta/commons/digester</required>
+    <required>jakarta/commons/lang</required>
+    <required>jakarta/commons/logging</required>
+	<required>jakarta/commons/io</required>
+    <required>jdbc/oracle</required>
+    <required>toolkit/common/lang?version=1.0</required>
+    <required>alipay/thirdparty/zql</required>
+  </library>
+</module>

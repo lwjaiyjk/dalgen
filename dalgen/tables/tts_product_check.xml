@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table sqlname="tts_product_check">
+
+  <column name="multimedia_state" javatype="int"/>
+  <column name="multimedia_type" javaType="int"/> 
+   
+	<!--  multiplicity="one" 返回对象类型 -->
+	<operation name="findById" multiplicity="one" paramtype="object">
+		<sql><![CDATA[ 
+            select * from t_wiki_multimedia where multimedia_id = ?
+        ]]></sql>
+	</operation>	
+	<operation name="selectAll" multiplicity="many" paramtype="object">
+		<sql><![CDATA[ 
+            select * from t_wiki_multimedia
+        ]]></sql>
+	</operation>
+	<operation name="queryByUserIdenAndCategoryName" multiplicity="many" paramtype="object">
+		<sql><![CDATA[ 
+             select * from t_wiki_multimedia where user_iden = ? and multimedia_category = ? and multimedia_state = ?
+        ]]></sql>
+	</operation>
+	<operation name="getCountByUserIdenAndCategoryName" multiplicity="one" paramtype="object">
+		<sql><![CDATA[ 
+             select count(multimedia_id) from t_wiki_multimedia where user_iden = ? and multimedia_category = ? and multimedia_state = ?
+        ]]></sql>
+	</operation>
+	<operation name="queryList" paramtype="object" multiplicity="many" >
+	  <!-- SQL 样式，用来生成源代码 -->
+		<sql><![CDATA[
+			select * from t_wiki_multimedia where multimedia_title like '%?%'	and multimedia_state = ?	and multimedia_createtime >= ? and multimedia_createtime <= ? order by multimedia_createtime
+		]]></sql>
+	</operation>
+
+	
+</table>

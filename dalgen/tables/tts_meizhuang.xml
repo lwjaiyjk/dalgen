@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table sqlname="tts_meizhuang">
+
+	<operation name="selectPublished" multiplicity="many">
+	
+	<extraparams>
+		<param name="pageSize" javatype="java.lang.Integer" />
+		<param name="startPage" javatype="java.lang.Integer" />
+	</extraparams>
+	<sql>
+		select * from tts_meizhuang 
+	</sql>
+	<sqlmap>
+			<![CDATA[
+		select * from tts_meizhuang
+		where publish_time ${cdata-start} <= ${cdata-end} now()
+		order by publish_time desc 
+		limit #startPage#,#pageSize#
+
+				 ]]>
+	</sqlmap>
+	
+	
+	</operation>
+	
+	<operation name="selectById" >
+	
+		<sql>
+			select * from tts_meizhuang where id =?
+		</sql>
+	
+	</operation>
+
+
+
+</table>

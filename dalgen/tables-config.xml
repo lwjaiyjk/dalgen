@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<typemap from="java.sql.Date" to="java.util.Date" />
+	<typemap from="java.sql.Timestamp" to="java.util.Date" />
+	<typemap from="java.math.BigDecimal" to="java.lang.Long" />
+	<typemap from="java.lang.Byte" to="java.lang.Integer" />
+	<typemap from="java.lang.Short" to="java.lang.Integer" />
+
+	<!-- <include table="tables/tts_product.xml" /> <include table="tables/tts_product_check.xml" 
+		/> <include table="tables/tts_meizhuang.xml" /> -->
+
+	<include table="tables/article.xml" />
+
+</tables>

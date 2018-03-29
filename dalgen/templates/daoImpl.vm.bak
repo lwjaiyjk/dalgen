@@ -1,0 +1,39 @@
+#set ($baseClass = "org.springframework.orm.ibatis.support.SqlMapClientDaoSupport")
+#if (${table.isAutoSwitchDataSrc})
+#set ($baseClass = "com.iwallet.biz.dal.common.AutoSwitchDataSrcSqlMapClientDaoSupport")
+#end
+#set ($base = "SqlMapClientDaoSupport")
+#if (${table.isAutoSwitchDataSrc})
+#set ($base = "AutoSwitchDataSrcSqlMapClientDaoSupport")
+#end
+#parse("copyright.vm")
+package ${table.ibatisPackage};
+
+import $baseClass;
+
+import ${table.qualifiedDAOClassName};
+import org.springframework.stereotype.Service;
+// auto generated imports
+#foreach($importClass in $table.daoImports) 
+import $importClass;
+#end
+#foreach($importClass in $table.ibatisImports)
+import $importClass;
+#end
+
+/**
+ * An ibatis based implementation of dao interface <tt>${table.qualifiedDAOClassName}</tt>.
+ *
+#parse("description-java.vm")
+ */
+@Service("${table.DAOClassName}")
+public class ${table.ibatisClassName} extends $base implements ${table.DAOClassName} {
+
+	private static final String namespace="${table.baseClassName}.";
+
+#foreach($operation in $table.operations)
+#parse("operation/op-${operation.templateSuffix}.vm") #parse("operation/opbody-${operation.templateSuffix}.vm")
+
+
+#end
+}

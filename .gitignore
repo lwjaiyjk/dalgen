@@ -1,0 +1,20 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+/.classpath
+
+/.project
+
+/.settings
+
+/target
+/dalgen/logs
+/dalgen/target
+
+/resources/howto/*.log
+
+/.externalToolBuilders/MyAntBuilder.launch

@@ -1,0 +1,1 @@
+    public $operation.simpleReturnType ${operation.name}(#foreach ($param in $operation.params)#if($velocityCount > 1), #end${param.simpleJavaType} ${param.name}#end)#if ($operation.simpleExceptions.size() > 0) throws #foreach ($e in $operation.simpleExceptions)#if($velocityCount > 1), #end${e}#end#end

@@ -1,0 +1,1 @@
+mvn package -Dmaven.test.skip=true -gs ./mvn.xml

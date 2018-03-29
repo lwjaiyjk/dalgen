@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMapConfig PUBLIC "-//iBATIS.com//DTD SQL Map Config 2.0//EN" "http://www.ibatis.com/dtd/sql-map-config-2.dtd">
+<sqlMapConfig>
+    <settings cacheModelsEnabled="true" enhancementEnabled="false" lazyLoadingEnabled="false" maxRequests="3000" maxSessions="3000" maxTransactions="3000" useStatementNamespaces="false"/>
+    <!--
+    <sqlMap resource="sqlmap/common-sqlmap-mapping.xml"/>
+	-->
+#foreach ($table in $plugin.sortedTables)            
+    <sqlMap resource="ibatis/mapping/${table.baseClassName}-sqlmap-mapping.xml"/>
+#end
+
+</sqlMapConfig>

@@ -1,0 +1,81 @@
+{
+## check parameters
+#if (${operation.paramType} == "object")
+    	if (${operation.params.get(0).name} == null) {
+    		throw new IllegalArgumentException("Can't select by a null data object.");
+    	}
+
+#end
+## prepare parameters
+#if (${operation.params.size()} == 0)
+#set ($paramName = "null")
+
+#elseif (${operation.params.size()} == 1)
+#if (${operation.param.javaTypePrimitive})
+        ${operation.param.simpleJavaTypeForPrimitive} param = new ${operation.param.simpleJavaTypeForPrimitive}(${operation.param.name});
+#set ($paramName = "param")
+#elseif (${operation.parameterClass} == "map")
+	    Map param = new HashMap();
+
+		#foreach ($param in ${operation.params})
+			#if ($param.javaTypeForPrimitive)
+        param.put("${param.name}", new ${param.simpleJavaTypeForPrimitive}(${param.name}));
+			#else
+        param.put("${param.name}", ${param.name});
+			#end
+		#end
+		#set ($paramName = "param")
+#else
+#set ($paramName = ${operation.param.name})
+
+#end
+#else
+        Map param = new HashMap();
+
+#foreach ($param in ${operation.params})
+#if ($param.javaTypeForPrimitive)
+        param.put("${param.name}", new ${param.simpleJavaTypeForPrimitive}(${param.name}));
+#else
+        param.put("${param.name}", ${param.name});
+#end
+#end
+#set ($paramName = "param")
+
+#end
+## execute query and return
+#if (! ${operation.paging})
+#if (${operation.multiplicity} == "one")
+#if (${operation.returnTypePrimitive})
+	    ${operation.simpleReturnTypeForPrimitive} retObj = (${operation.simpleReturnTypeForPrimitive}) getSqlMapClientTemplate().queryForObject(namespace+"${operation.mappedStatementId}", ${paramName});
+
+		if (retObj == null) {
+		    return ${operation.defaultReturnValue};
+		} else {
+		    return retObj.${operation.simpleReturnType}Value();
+		}
+#else
+        return (${operation.simpleReturnType}) getSqlMapClientTemplate().queryForObject(namespace+"${operation.mappedStatementId}", ${paramName});
+#end
+#else
+        return getSqlMapClientTemplate().queryForList(namespace+"${operation.mappedStatementId}", ${paramName});
+#end
+
+#else
+        Paginator paginator = new Paginator();
+        paginator.setItemsPerPage(pageSize);
+        paginator.setPage(pageNum / pageSize + 1);
+
+        paginator.setItems(((Integer) getSqlMapClientTemplate().queryForObject(namespace+"${operation.mappedStatementIdForCount}", ${paramName})).intValue());
+        
+        PageList  pageList = new PageList();
+        pageList.setPaginator(paginator);
+        
+        if (paginator.getBeginIndex() <= paginator.getItems()) {
+            ${paramName}.put("${operation.startRowName}", new Integer(paginator.getBeginIndex()));
+            ${paramName}.put("${operation.endRowName}", new Integer(paginator.getEndIndex()));
+            pageList.addAll(getSqlMapClientTemplate().queryForList(namespace+"${operation.mappedStatementId}", ${paramName}));
+        }
+        
+        return pageList;
+#end
+    }

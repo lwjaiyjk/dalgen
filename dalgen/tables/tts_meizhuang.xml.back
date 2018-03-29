@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table sqlname="tts_meizhuang">
+
+
+	<operation name="insert">
+
+		<sql>
+			INSERT INTO tts_meizhuang
+			(description,pic_url,price,words,topIds,publish_time,publish_user_id,create_time,title)
+			VALUES (?, ?, ?, ?, ?,?,?,?,?)
+		</sql>
+		<sqlmap>
+			insert into
+			tts_meizhuang(description,pic_url,price,words,topIds,publish_time,publish_user_id,create_time,title)
+			values (#description#, #picUrl#, #price#, #words#, #topIds#,
+			#publishTime#, #publishUserId#,now(),#title#)
+		</sqlmap>
+
+	</operation>
+
+	<operation name="update" paramtype="object">
+		<sql>
+			update tts_meizhuang
+			set
+			description=?,
+			pic_url=?,
+			price=?,
+			topIds=?,
+			title=?,
+			words=?,
+			publish_time=?
+			where id=?
+		</sql>
+	</operation>
+
+	<operation name="select" multiplicity="many">
+		<extraparams>
+			<param name="pageSize" javatype="java.lang.Integer" />
+			<param name="startPage" javatype="java.lang.Integer" />
+			<param name="status" javatype="java.lang.Integer" />
+		</extraparams>
+		<sql>
+			<![CDATA[
+			select * from tts_meizhuang where id=? and title=? and words=?
+			]]>
+		</sql>
+
+		<sqlmap>
+		<![CDATA[
+			select * from tts_meizhuang
+			<dynamic prepend="WHERE">
+			<isNotEmpty property="id" prepend="and">
+				id=#id#
+			</isNotEmpty>
+	        <isEqual property="status" compareValue="0" prepend="and">
+	        	publish_time>now()
+	        </isEqual>
+	        <isEqual property="status" compareValue="1" prepend="and">
+	        	publish_time 		${cdata-start}< ${cdata-end} now()
+	        </isEqual>
+	        <isNotEmpty property="title" prepend="and">
+	         	title like '%$title$%'
+	        </isNotEmpty>
+	        <isNotEmpty property="words" prepend="and">
+	         	words like '%$words$%'
+	        </isNotEmpty>
+			</dynamic>
+			order by create_time desc
+			limit #startPage#,#pageSize#
+			]]>
+		</sqlmap>
+	</operation>
+
+
+	<operation name="selectCount" resultClass="java.lang.Integer">
+		<extraparams>
+			<param name="status" javatype="java.lang.Integer" />
+		</extraparams>
+		<sql>
+				<![CDATA[
+			select count(1) from tts_meizhuang where id=? and title=? and words=?
+		]]>
+		</sql>
+
+		<sqlmap>
+		<![CDATA[
+			select count(1) from tts_meizhuang
+						<dynamic prepend="WHERE">
+			<isNotEmpty property="id" prepend="and">
+				id=#id#
+			</isNotEmpty>
+	        <isEqual property="status" compareValue="1" prepend="and">
+	        	publish_time>now()
+	        </isEqual>
+	        <isEqual property="status" compareValue="0" prepend="and">
+	        	publish_time 		${cdata-start}< ${cdata-end} now()
+	        </isEqual>
+	        <isNotEmpty property="title" prepend="and">
+	         	title like '%$title$%'
+	        </isNotEmpty>
+	        <isNotEmpty property="words" prepend="and">
+	         	words like '%$words$%'
+	        </isNotEmpty>
+			</dynamic>
+		]]>
+		</sqlmap>
+	</operation>
+
+	<operation name="delete">
+		<sql>
+			delete tts_meizhuang where id = ?
+		</sql>
+	</operation>
+
+	<operation name="selectById">
+		<sql>
+			select * from tts_meizhuang where id=?
+		</sql>
+	</operation>
+
+
+
+</table>
