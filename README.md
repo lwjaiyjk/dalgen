@@ -9,4 +9,4 @@ generate Dao.java
 		 Ibatis.xml
 
 		 
-modify on https://github.com/obullxl/atom-dalgen
+文档地址：https://www.jianshu.com/p/e2b5d5a16bf0
