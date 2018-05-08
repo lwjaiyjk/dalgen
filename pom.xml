@@ -10,6 +10,7 @@
 
 	<properties>
 		<deploy.final.name>dalgen</deploy.final.name>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
@@ -74,8 +75,11 @@
 		<!-- ======================================== -->
 		<!-- JDBC相关依赖 -->
 		<!-- ======================================== -->
-		<!-- <dependency> <groupId>zql</groupId> <artifactId>zql</artifactId> <version>1.0</version> 
-			</dependency> -->
+		<dependency>
+			<groupId>zql</groupId>
+			<artifactId>zql</artifactId>
+			<version>1.0</version>
+		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -175,6 +179,7 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
+					 <encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
 
